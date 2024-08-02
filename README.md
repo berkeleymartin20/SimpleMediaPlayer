@@ -24,6 +24,11 @@
 * At the time of Library Fragment initialization (onViewCreated), the app scans dynamically scans through all of the media files that were used to compile the application in the raw folder. These media (mp3) files are then processed to output title, artist, and duration information in text views of relative layouts 
  
 ## Possible Future Improvements 
+### Code Clean up
+* Due to limited time (4 hrs), I disregarded putting constants, such as values for margins, text sizes, etc. in more organized manner (such as static final variables, or with in a constants.xml file, etc.)
+* There are some repeated codes within the playNextSong() method in the NowPlaying.kt class. Encapsulation of such repeated code could increase readability of the code
+
+### Functionalities to add
 * Add functionality to keep track of previously played music data even after destruction saved instance
 * Add functionality to play music via clicking on titles in the library
 * Add functionality to see current playback on the track
