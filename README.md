@@ -21,7 +21,8 @@
 * For user's convenience, I've added a little text to say "Nothing else on the stack!" to notify the stack has run out and there are no more "previous" songs to listen to
 * Next functionality utilizes ArrayList to keep track of which music we are playing from the music list. With the addition of Random class, we are able to add shuffle functionality to the application and using the index of the arraylist allows us to stop playing music when end of the library is reached.
 ### Library
-* At the time of Library Fragment initialization (onViewCreated), the app scans dynamically scans through all of the media files that were used to compile the application in the raw folder. These media (mp3) files are then processed to output title, artist, and duration information in text views of relative layouts 
+* At the time of Library Fragment initialization (onViewCreated), the app scans dynamically scans through all of the media files that were used to compile the application in the raw folder. These media (mp3) files are then processed to output title, artist, and duration information in text views of relative layouts
+* Added a scrollview in case there were more songs to be added
  
 ## Possible Future Improvements 
 ### Code Clean up
