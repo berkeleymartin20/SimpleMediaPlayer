@@ -5,6 +5,7 @@
 * Shuffle, Repeat All/One, Previous/Next, and Play/Pause functionalities
 * Different icons to indicate status of each functionality (e.g. - shuffle, repeats, play/pause)
 * Display for current song's title and artist, which could also serve as a informative tool from the media player (In case we have run out of songs, it will display a text)
+* Utilizing fragment-activity architecture, adding additional features in the future should come at ease (such as displaying a consistent "now playing" bar at the bottom of the screen). It consumes less resources than activity-only structure, and having the Library screen as an overlay fragment prevents to need to keep track of state of NowPlaying screen.
 
 ### Shuffle
 * Utilizing Random class, a random song is played within the library. In case repeat all is not turned on, application will maintain a hashset of previously played songs since repeat all has been turned off, to ensure there will not be a repeat of songs
