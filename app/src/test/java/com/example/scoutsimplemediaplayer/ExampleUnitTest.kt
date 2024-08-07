@@ -1,4 +1,4 @@
-package com.example.scoutsimplemediaplayer
+package com.example.simplemediaplayer
 
 import org.junit.Test
 

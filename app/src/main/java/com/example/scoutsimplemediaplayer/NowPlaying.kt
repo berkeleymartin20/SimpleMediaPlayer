@@ -1,4 +1,4 @@
-package com.example.scoutsimplemediaplayer
+package com.example.simplemediaplayer
 
 import android.annotation.SuppressLint
 import android.media.MediaMetadataRetriever
@@ -11,7 +11,7 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.fragment.app.Fragment
-import com.example.scoutsimplemediaplayer.R.raw
+import com.example.simplemediaplayer.R.raw
 import java.io.IOException
 import java.util.Stack
 import kotlin.random.Random.Default.nextInt
@@ -36,7 +36,7 @@ class NowPlaying : Fragment() {
     private var lastPlayerIdx = 0
     private lateinit var songsPlayed: HashSet<Int>
     private lateinit var prevPlayed: Stack<Int>
-    private val URI_PATH = "android.resource://com.example.scoutmotorsmediaplayer/raw/"
+    private val URI_PATH = "android.resource://com.example.simplemediaplayer/raw/"
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,

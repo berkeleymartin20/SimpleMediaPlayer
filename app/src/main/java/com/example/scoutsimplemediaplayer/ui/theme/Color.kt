@@ -1,4 +1,4 @@
-package com.example.scoutsimplemediaplayer.ui.theme
+package com.example.simplemediaplayer.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

@@ -20,6 +20,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "ScoutSimpleMediaPlayer"
+rootProject.name = "SimpleMediaPlayer"
 include(":app")
  

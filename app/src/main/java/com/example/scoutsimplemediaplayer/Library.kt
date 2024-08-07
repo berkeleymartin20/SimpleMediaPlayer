@@ -1,4 +1,4 @@
-package com.example.scoutsimplemediaplayer
+package com.example.simplemediaplayer
 
 import android.media.MediaMetadataRetriever
 import android.net.Uri
@@ -15,11 +15,11 @@ import android.widget.TextView
 import androidx.annotation.RequiresApi
 import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.fragment.app.Fragment
-import com.example.scoutsimplemediaplayer.R.raw
+import com.example.simplemediaplayer.R.raw
 import java.time.Duration
 
 class Library : Fragment() {
-    private val uriPath = "android.resource://com.example.scoutmotorsmediaplayer/raw/"
+    private val uriPath = "android.resource://com.example.simplemediaplayer/raw/"
     var linearLayout: LinearLayout? = null
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
