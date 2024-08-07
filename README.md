@@ -1,5 +1,8 @@
 # SimpleMediaPlayer
 
+### Update 8/7/2024
+* Noticed I wasn't able to run the application on my Mac (I used my PC to build the application) and realized package name was not changed when I duplicated the repo for github upload (due to repo linking issues with first project folder). Pushed a fix to make the package name match the actual project name, and made it a universal change throughout the code
+
 ## Functionalities
 * Library to view all of the songs on the application
 * Shuffle, Repeat All/One, Previous/Next, and Play/Pause functionalities
